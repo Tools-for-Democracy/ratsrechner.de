@@ -135,6 +135,63 @@
         { "district-number": 24, "candidate-name": "Willenberg, Frank Rainer Fritz" },
         { "district-number": 25, "candidate-name": "Müller, Bernhard" },
         { "district-number": 26, "candidate-name": "Winkelhoch, Matthias Wilhelm" }
+      ],
+        "list-candidates": [
+        { "position": 1, "name": "Lienesch, Sascha" },
+        { "position": 2, "name": "Winkelhoch, Matthias Wilhelm" },
+        { "position": 3, "name": "Stoltze, Jessica" },
+        { "position": 4, "name": "Beutel, Dirk Michael" },
+        { "position": 5, "name": "Dr. Beckmann, Christopher Oliver" },
+        { "position": 6, "name": "Gatzweiler, Martina" },
+        { "position": 7, "name": "Meurer, Mathilde" },
+        { "position": 8, "name": "Dellbrügge, Andreas" },
+        { "position": 9, "name": "Müller, Bernhard" },
+        { "position": 10, "name": "Feld-Wielpütz, Claudia" },
+        { "position": 11, "name": "Hötzel, Melanie" },
+        { "position": 12, "name": "Nolden, Jens" },
+        { "position": 13, "name": "Eck, Marco" },
+        { "position": 14, "name": "Schiffeier, Thomas" },
+        { "position": 15, "name": "Kessel, Manuel" },
+        { "position": 16, "name": "Dr. Schmied, Nico" },
+        { "position": 17, "name": "Olboeter-Zorn, Christina Ruth" },
+        { "position": 18, "name": "Winkler, Maximilian" },
+        { "position": 19, "name": "Herfeldt, Eidach-Christian" },
+        { "position": 20, "name": "Prause, Wolfgang Michael" },
+        { "position": 21, "name": "Willenberg, Frank Rainer Fritz" },
+        { "position": 22, "name": "Sträßer, Leo" },
+        { "position": 23, "name": "Quadt, Wilfried" },
+        { "position": 24, "name": "Böhm-Beck, Ulrike" },
+        { "position": 25, "name": "Puffe, Rene" },
+        { "position": 26, "name": "Kappes, Dennis Christopher" },
+        { "position": 27, "name": "Vogt, Ricarda Johanna Isabelle" },
+        { "position": 28, "name": "Rahman, Melanie" },
+        { "position": 29, "name": "Rieck, Wolfgang" },
+        { "position": 30, "name": "Smith, Herbert Günther" },
+        { "position": 31, "name": "Leitterstorf, Sigrid" },
+        { "position": 32, "name": "Bürger, Heinz Jürgen" },
+        { "position": 33, "name": "Sauer, Matthias Stephan" },
+        { "position": 34, "name": "Sommerfeld, Lars Henry" },
+        { "position": 35, "name": "Grzeszkowiak, Sibylle Gisela" },
+        { "position": 36, "name": "Brecht-Kalus, Natascha Heike" },
+        { "position": 37, "name": "Rindsfüßer-Eck, Navina Petra" },
+        { "position": 38, "name": "Adamy, Dirk" },
+        { "position": 39, "name": "Balzer, Martin" },
+        { "position": 40, "name": "Müller, Jörg" },
+        { "position": 41, "name": "Quast, Konstantin" },
+        { "position": 42, "name": "Meyer-Eppler, Kurt Erich Tomas" },
+        { "position": 43, "name": "Höhr, Daniel Johannes" },
+        { "position": 44, "name": "Büsse, Juliana Martina" },
+        { "position": 45, "name": "Schewe, Jörn Reinhard" },
+        { "position": 46, "name": "Pochert, Tobias" },
+        { "position": 47, "name": "Lindner, Kim Patrick" },
+        { "position": 48, "name": "Balzer, Silke" },
+        { "position": 49, "name": "Silber-Bonz, Christoph" },
+        { "position": 50, "name": "Weber, Joanna Bianca" },
+        { "position": 51, "name": "Schnupp, Ulrich Peter" },
+        { "position": 52, "name": "Klein, Regine" },
+        { "position": 53, "name": "Schnupp, Brigitte Helene" },
+        { "position": 54, "name": "Liebers, Ralf" },
+        { "position": 55, "name": "Flassig, Egbert Josef Willy" }
       ]
     },
     {
@@ -168,6 +225,42 @@
         { "district-number": 24, "candidate-name": "Emmerich, Florian Curt" },
         { "district-number": 25, "candidate-name": "Jabs, Peggy Carmen" },
         { "district-number": 26, "candidate-name": "Friedhöfen, Gertrud Sibylle" }
+      ],
+      "list-candidates": [
+        { "position": 1, "name": "Borowski, Heike" },
+        { "position": 2, "name": "Knülle, Marc" },
+        { "position": 3, "name": "Burk, Gudrun Eveline" },
+        { "position": 4, "name": "Bäsch, Sascha Constantin" },
+        { "position": 5, "name": "Bilgmann, Brigitte" },
+        { "position": 6, "name": "Richter, Michael" },
+        { "position": 7, "name": "Dr. Petzhold, Bianca" },
+        { "position": 8, "name": "Quast, Björn" },
+        { "position": 9, "name": "Schik, Kristina" },
+        { "position": 10, "name": "Gross, Daniel Leander" },
+        { "position": 11, "name": "Bäsch, Sandra" },
+        { "position": 12, "name": "Einmal, Mika Elias Martin" },
+        { "position": 13, "name": "Friedhöfen, Gertrud Sibylle" },
+        { "position": 14, "name": "Schumacher, Richard" },
+        { "position": 15, "name": "Jabs, Peggy Carmen" },
+        { "position": 16, "name": "Stephenson, Patrick Edward" },
+        { "position": 17, "name": "Groß-Schmidt, Susanne" },
+        { "position": 18, "name": "Fabritius, Claus" },
+        { "position": 19, "name": "Schmidt, Severin Federico Lautaro" },
+        { "position": 20, "name": "Nettesheim, Andreas Adolf Eugen" },
+        { "position": 21, "name": "Emmerich, Florian Curt" },
+        { "position": 22, "name": "Sajzew, Dejvid" },
+        { "position": 23, "name": "Hoffmann, Karl-Heinz Christof" },
+        { "position": 24, "name": "Maigre, Lothar Gottfried" },
+        { "position": 25, "name": "Kisner, Florian Johannes" },
+        { "position": 26, "name": "Bergmann-Gries, Jutta" },
+        { "position": 27, "name": "Schmitz-Porten, Gerhard Anteus" },
+        { "position": 28, "name": "Schmitz, Gisela" },
+        { "position": 29, "name": "Richter, Gerd Walter" },
+        { "position": 30, "name": "Borowski, Kira" },
+        { "position": 31, "name": "Hentschel, Torsten Dirk" },
+        { "position": 32, "name": "Schmitz-Schulle, Margitta" },
+        { "position": 33, "name": "Schmitz-Schulle, Karin Elisabeth" },
+        { "position": 34, "name": "Schmitz-Porten, Ute Ilse" }
       ]
     },
     {
@@ -201,6 +294,32 @@
         { "district-number": 24, "candidate-name": "Gassen, Gabriele Katharina" },
         { "district-number": 25, "candidate-name": "Janssen, Sarah" },
         { "district-number": 26, "candidate-name": "Orthmann, Manfred Eberhard" }
+      ],
+      "list-candidates": [
+        { "position": 1, "name": "Schulenburg, Monika Gertrud" },
+        { "position": 2, "name": "Günther, Christian" },
+        { "position": 3, "name": "Roth, Ria-Petra" },
+        { "position": 4, "name": "Heistermann, Bernd" },
+        { "position": 5, "name": "Flottmann, Frauke" },
+        { "position": 6, "name": "Stiefelhagen, Karl Otto" },
+        { "position": 7, "name": "Janssen, Sarah" },
+        { "position": 8, "name": "Borggräfe, Björn" },
+        { "position": 9, "name": "Salgar, Nihan" },
+        { "position": 10, "name": "Brings, Björn Christian" },
+        { "position": 11, "name": "Schwarzner, Tobias Franz" },
+        { "position": 12, "name": "Herberz, Rainer Hubert" },
+        { "position": 13, "name": "Misch, Jürgen Friedrich" },
+        { "position": 14, "name": "Monreal, Manfred Heribert Josef" },
+        { "position": 15, "name": "Handels, Martina" },
+        { "position": 16, "name": "Dr. Broer, Helfried Erich" },
+        { "position": 17, "name": "Gassen, Gabriele Katharina" },
+        { "position": 18, "name": "Dr. Klöckener, Jörn Erwin" },
+        { "position": 19, "name": "Dr. Nonnen, Susanne Frederike Helene" },
+        { "position": 20, "name": "Piela, Günter Wilhelm" },
+        { "position": 21, "name": "Peters-Lapsien, Birgitt Elisabeth" },
+        { "position": 22, "name": "Pätzold, Franz Thomas" },
+        { "position": 23, "name": "Piela-Jonda, Barbara" },
+        { "position": 24, "name": "Metz, Martin" }
       ]
     },
     {
@@ -234,6 +353,20 @@
         { "district-number": 24, "candidate-name": "Voß, Peter Hermann" },
         { "district-number": 25, "candidate-name": "Webeier, Rolf Moritz" },
         { "district-number": 26, "candidate-name": "Willnecker, Carsten Lutz" }
+      ],
+      "list-candidates": [
+        { "position": 1, "name": "Pütz, Jörg Fritz" },
+        { "position": 2, "name": "Logier, Sven Michael" },
+        { "position": 3, "name": "Willnecker, Carsten Lutz" },
+        { "position": 4, "name": "Ideker, Jürgen" },
+        { "position": 5, "name": "Kleinvogel, Gerd Ernst" },
+        { "position": 6, "name": "Silber-Bonz, Anne-Katrin" },
+        { "position": 7, "name": "Weber, Reinhard Peter" },
+        { "position": 8, "name": "llgmann, Andreas Dirk" },
+        { "position": 9, "name": "Klumm, Michael Walter" },
+        { "position": 10, "name": "Ott-Bögle, Kerstin" },
+        { "position": 11, "name": "Pütz, Moritz" },
+        { "position": 12, "name": "Matting, Hans Alexander Volker" }
       ]
     },
     {
@@ -267,6 +400,13 @@
         { "district-number": 24, "candidate-name": "Köhler, Johann-Wolfgang Rudolf" },
         { "district-number": 25, "candidate-name": "Wendelmuth, Eva Maria" },
         { "district-number": 26, "candidate-name": "Kuhl, Hansjörg" }
+      ],
+      "list-candidates": [
+        { "position": 1, "name": "Köhler, Johann-Wolfgang Rudolf" },
+        { "position": 2, "name": "Schmidt, Sabine" },
+        { "position": 3, "name": "Kuhl, Hansjörg" },
+        { "position": 4, "name": "Betge, Winfried" },
+        { "position": 5, "name": "Heynisch, Volker Walter" }
       ]
     },
     {
@@ -300,6 +440,16 @@
         { "district-number": 24, "candidate-name": "Deocades, Marc Anthony" },
         { "district-number": 25, "candidate-name": "Zimmermann, Marie Dorothea" },
         { "district-number": 26, "candidate-name": "Nguyen, Dinh Khoa" }
+      ],
+      "list-candidates": [
+        { "position": 1, "name": "Austria, Marco" },
+        { "position": 2, "name": "Steinle, Maximilian" },
+        { "position": 3, "name": "Schacht, Manuel" },
+        { "position": 4, "name": "Zimmermann, Stefanie Melanie Deborah" },
+        { "position": 5, "name": "Klat, Melissa" },
+        { "position": 6, "name": "Deocades, Marc Anthony" },
+        { "position": 7, "name": "Mellin, Klaus Friedrich" },
+        { "position": 8, "name": "Frodl, Walter Adolf" }
       ]
     },
     {
@@ -333,6 +483,20 @@
         { "district-number": 24, "candidate-name": "Abraham, Helge Rudolf" },
         { "district-number": 25, "candidate-name": "Lindlar, Norbert" },
         { "district-number": 26, "candidate-name": "Lindlar, Diana" }
+      ],
+      "list-candidates": [
+        { "position": 1, "name": "Schuster, Marc Sascha" },
+        { "position": 2, "name": "Lindlar, Norbert" },
+        { "position": 3, "name": "Haas, Niclas" },
+        { "position": 4, "name": "Leiser, Horst" },
+        { "position": 5, "name": "de Jesus, Victor Henrique" },
+        { "position": 6, "name": "Brüggen, Marita" },
+        { "position": 7, "name": "Esterlein, Waldemar" },
+        { "position": 8, "name": "Pietschen, John-Luca" },
+        { "position": 9, "name": "Schuster, Miriam Mara" },
+        { "position": 10, "name": "Abraham, Helge Rudolf" },
+        { "position": 11, "name": "Heim, Svetlana" },
+        { "position": 12, "name": "Drost, Helge Frank Reiner" }
       ]
     },
     {
@@ -345,6 +509,12 @@
         { "district-number": 8, "candidate-name": "Zielasko, Markus" },
         { "district-number": 9, "candidate-name": "Bönig, Christoph" },
         { "district-number": 19, "candidate-name": "Williams, Karu" }
+      ],
+      "list-candidates": [
+        { "position": 1, "name": "Prause, Philipp Wolfgang Peter Paul" },
+        { "position": 2, "name": "Bönig, Christoph" },
+        { "position": 3, "name": "Zielasko, Markus" },
+        { "position": 4, "name": "Williams, Karu" }
       ]
     }
   ],
