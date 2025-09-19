@@ -17,8 +17,8 @@ if (empty($url)) {
     exit();
 }
 
-// Validiere URL (nur wahlen.citeq.de erlauben)
-if (!preg_match('/^https:\/\/wahlen\.citeq\.de\//', $url)) {
+// Validiere URL (nur wahlen.citeq.de und wahlen.regioit.de erlauben)
+if (!preg_match('/^https:\/\/wahlen\.citeq\.de\//', $url) && !preg_match('/^https:\/\/wahlen\.regioit\.de\//', $url)) {
     http_response_code(400);
     echo 'Invalid URL domain';
     exit();

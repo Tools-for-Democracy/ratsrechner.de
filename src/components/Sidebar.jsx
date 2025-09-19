@@ -1,8 +1,8 @@
 // src/components/Sidebar.jsx
-import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
-import { calculateSeats, calculateDistrictWinners } from '../utils/seatAllocation';
-import SeatDistributionChart from './SeatDistributionChart';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { getElectedCandidates } from '../utils/electionHelpers';
+import { calculateSeats } from '../utils/seatAllocation';
+import SeatDistributionChart from './SeatDistributionChart';
 
 // Timer-Gauge-Komponente für Live-Ergebnisse
 const LiveResultsTimer = ({ nextUpdateTime, lastUpdateTime }) => {
@@ -129,34 +129,32 @@ const LiveResultsTimer = ({ nextUpdateTime, lastUpdateTime }) => {
     );
 };
 
+import InfoIcon from '@mui/icons-material/Info';
 import {
+    Alert,
+    Autocomplete,
     Box,
-    Typography,
+    Card,
+    CardContent,
+    Chip,
+    CircularProgress,
     FormControl,
+    FormControlLabel,
+    IconButton,
+    InputAdornment,
     InputLabel,
-    Select,
-    MenuItem,
-    TextField,
-    Paper,
     List,
     ListItem,
     ListItemText,
-    Chip,
-    Divider,
-    Tooltip,
-    IconButton,
-    Badge,
+    MenuItem,
+    Paper,
     Popover,
-    Card,
-    CardContent,
-    Alert,
-    InputAdornment,
-    Autocomplete,
+    Select,
     Switch,
-    FormControlLabel,
-    CircularProgress
+    TextField,
+    Tooltip,
+    Typography
 } from '@mui/material';
-import InfoIcon from '@mui/icons-material/Info';
 import { debounce } from 'lodash';
 
 // Memoized Party-Listenelement für bessere Performance
@@ -540,7 +538,7 @@ const CorporationInfo = React.memo(({
                 </Typography>
             )}
             <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
-                Gesetzliche Sitzzahl: {corporationData['cuncil-seats']}
+                Gesetzliche Sitzzahl: {corporationData['council-seats']}
             </Typography>
         </Box>
     )
@@ -562,14 +560,14 @@ const SeatSummary = React.memo(({
                 Sitzverteilung ({seatAllocation.name}):
             </Typography>
             <Typography variant="body2">
-                Insgesamt verteilt: {totalAllocatedSeats + successfulIndependents} von {corporationData['cuncil-seats']} Sitzen
+                Insgesamt verteilt: {totalAllocatedSeats + successfulIndependents} von {corporationData['council-seats']} Sitzen
                 {successfulIndependents > 0 && ` (davon ${successfulIndependents} Einzelbewerber)`}
             </Typography>
 
             {/* Zeige Hinweis zu Überhangmandaten, wenn Rock-Verfahren verwendet wird */}
-            {seatAllocation && seatAllocation.key === 'rock' && totalAllocatedSeats + successfulIndependents > corporationData['cuncil-seats'] && (
+            {seatAllocation && seatAllocation.key === 'rock' && totalAllocatedSeats + successfulIndependents > corporationData['council-seats'] && (
                 <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5 }}>
-                    Inkl. {totalAllocatedSeats + successfulIndependents - corporationData['cuncil-seats']} Ausgleichsmandate
+                    Inkl. {totalAllocatedSeats + successfulIndependents - corporationData['council-seats']} Ausgleichsmandate
                 </Typography>
             )}
         </Paper>
@@ -823,7 +821,7 @@ function Sidebar({
 
                 // Setze die Werte aus den Umfrageergebnissen
                 Object.keys(pollResults).forEach(partyId => {
-                    if (initialPercentages.hasOwnProperty(partyId)) {
+                    if (Object.prototype.hasOwnProperty.call(initialPercentages, partyId)) {
                         initialPercentages[partyId] = pollResults[partyId].toString();
                     }
                 });
@@ -997,7 +995,7 @@ function Sidebar({
             return {};
         }
 
-        const totalSeats = corporationData['cuncil-seats'];
+        const totalSeats = corporationData['council-seats'];
         const method = seatAllocation.key;
 
         // Berechne die Anzahl der erfolgreichen Einzelbewerber
@@ -1034,13 +1032,13 @@ function Sidebar({
     // Berechne die Gesamtprozente basierend auf Live-Ergebnissen oder manuellen Eingaben
     const effectiveTotalPercentage = useMemo(() => {
         if (isLiveResultsActive && Object.keys(livePartyPercentages).length > 0) {
-            return Object.values(livePartyPercentages).reduce((sum, val) => sum + parseFloat(val || 0), 0);
+            return Object.values(livePartyPercentages).reduce((sum, val) => sum + parseFloat(val || 0).toPrecision(7), 0);
         }
         return totalPercentage;
     }, [isLiveResultsActive, livePartyPercentages, totalPercentage]);
 
     // Berechne die Anzahl der Wahlkreise (Direktmandate) - die Hälfte der regulären Ratssitze
-    const numDirectSeats = corporationData ? Math.floor(corporationData['cuncil-seats'] / 2) : 0;
+    const numDirectSeats = corporationData ? Math.floor(corporationData['council-seats'] / 2) : 0;
 
     // Berechne die Gesamtzahl der gewonnenen Wahlkreise
     const totalDirectMandates = useMemo(() => {

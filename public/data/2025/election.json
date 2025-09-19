@@ -1,30 +1,34 @@
 {
-  "burscheid": {
-    "name": "Stadt Burscheid",
-    "data-source": "/data/2025/burscheid.json"
-  },
+    "burscheid": {
+        "name": "Stadt Burscheid",
+        "data-source": "/data/2025/burscheid.json"
+    },
     "muenster": {
-      "name": "Stadt Münster",
-      "data-source": "/data/2025/muenster.json"
+        "name": "Stadt Münster",
+        "data-source": "/data/2025/muenster.json"
     },
     "cologne": {
-      "name": "Stadt Köln",
-      "data-source": "/data/2025/cologne.json"
+        "name": "Stadt Köln",
+        "data-source": "/data/2025/cologne.json"
     },
     "coe": {
-      "name": "Kreis Coesfeld",
-      "data-source": "/data/2025/coe.json"
+        "name": "Kreis Coesfeld",
+        "data-source": "/data/2025/coe.json"
     },
     "moenchenglasbach": {
-      "name": "Stadt Mönchengladbach",
-      "data-source": "/data/2025/moenchengladbach.json"
+        "name": "Stadt Mönchengladbach",
+        "data-source": "/data/2025/moenchengladbach.json"
     },
     "sanktaugustin": {
-      "name": "Stadt Sankt Augustin",
-      "data-source": "/data/2025/sanktaugustin.json"
+        "name": "Stadt Sankt Augustin",
+        "data-source": "/data/2025/sanktaugustin.json"
     },
     "billerbeck": {
-      "name": "Stadt Billerbeck",
-      "data-source": "/data/2025/billerbeck.json"
+        "name": "Stadt Billerbeck",
+        "data-source": "/data/2025/billerbeck.json"
+    },
+    "ratingen": {
+        "name": "Stadt Ratingen",
+        "data-source": "/data/2025/ratingen.json"
     }
-  }
+}

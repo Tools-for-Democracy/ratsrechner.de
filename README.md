@@ -90,7 +90,7 @@ Am Beispiel von `/data/2025/muenster.json`:
 
 ```json
 {
-  "cuncil-seats": 66,
+  "council-seats": 66,
   "districts": [...],
   "results": {},
   "parties": [...],
@@ -102,7 +102,7 @@ Am Beispiel von `/data/2025/muenster.json`:
 
 **Struktur:**
 
-- `cuncil-seats`: Gesamtzahl der Sitze im Rat
+- `council-seats`: Gesamtzahl der Sitze im Rat
 - `districts`: Array mit Informationen zu allen Wahlkreisen
   - `number`: Wahlkreisnummer
   - `name`: Name des Wahlkreises
@@ -165,7 +165,7 @@ Um neue Wahldaten hinzuzufügen, folgen Sie diesen Schritten:
 Füllen Sie die Datei `/data/{JAHR}/{NEUE_KOMMUNE}.json` mit den erforderlichen Daten:
 
 1. **Grunddaten der Kommune**:
-   - Anzahl der Ratssitze (`cuncil-seats`)
+   - Anzahl der Ratssitze (`council-seats`)
    - Liste der Wahlkreise (`districts`)
 
 2. **Parteien und Kandidaten**:
@@ -183,7 +183,7 @@ Füllen Sie die Datei `/data/{JAHR}/{NEUE_KOMMUNE}.json` mit den erforderlichen 
 
 ```json
 {
-  "cuncil-seats": 60,
+  "council-seats": 60,
   "districts": [
     {
       "number": 1,
@@ -232,7 +232,7 @@ Um Live-Ergebnisse für eine Kommune zu aktivieren, fügen Sie ein `live-results
 
 ```json
 {
-  "cuncil-seats": 66,
+  "council-seats": 66,
   "live-results": {
     "enabled": true,
     "url": "https://wahlen.citeq.de/20200913/05515000/html5/Open-Data-Ratswahl-NRW165.csv",
